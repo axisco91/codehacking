@@ -27,7 +27,7 @@ class Post extends Model
 
     }
 
-    private function category(){
+    public function category(){
 
         return $this->belongsTo('App\Category');
 
